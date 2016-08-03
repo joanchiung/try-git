@@ -1,0 +1,60 @@
+@import "compass/reset"; //重設所有html元素
+
+/* first for IE 4–8 */
+
+@font-face {
+    font-family: b016033t;
+    src: url("b016033tWeb.eot");
+}
+
+
+/* then for WOFF-capable browsers */
+
+@font-face {
+    font-family: b016033t;
+    src: url("b016033tWeb.woff") format("woff");
+}
+
+$content:100%;
+$line-gray:#DCDCDC;
+$text-gray:#A0A0A0;
+$bg-gray:#F7F6F6;
+
+$dark-red:#670336;
+$middle-line-red:#A00152;
+
+$link-color: #5E5E5E;
+$base-color: #00CCD4;
+
+$pink:#E91E63;
+$purple: #C101E2;
+
+/* go on with normal style definitions */
+
+body {
+    font-family: b016033t, heisei-mincho-std, sans-serif;
+
+    p {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+}
+
+@import "menu";
+@import "header";
+@import "footer";
+
+@import "extend";
+@import "index";
+
+@import "projectmain";
+
+@import "project";
+// font-family: 'Petit Formal Script', cursive;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Amiri', serif;
+// a-otf-futo-min-a101-pr6n
+
+
+
+

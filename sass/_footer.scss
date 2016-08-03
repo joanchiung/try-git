@@ -1,0 +1,265 @@
+//footer
+footer {
+    position: relative;
+    clear: both;
+    width: 100%;
+    float: left;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 2.5rem;
+    // background-color: $dark-red;
+    .fcontaint {
+        margin: 0 auto;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 3%
+    }
+    .contain {
+        float: left;
+        width: 100%;
+        color: lighten($middle-line-red, 55%);
+        padding: 3.5% 0 1.5% 0;
+        .left-mane {
+            float: right;
+            text-align: right;
+            padding: 0 2rem 0 0;
+            box-sizing: border-box;
+            @media screen and (max-width: 992px) {
+                float: left;
+                text-align: left;
+                padding: 3% 0 2% 2rem;
+            }
+            @media screen and (max-width: 500px) {
+                text-align: center;
+                float: none;
+                padding: 0 0 2% 0;
+            }
+            h2 {
+                background-color: #000;
+                font-size: 2rem;
+                @media screen and (max-width: 500px) {
+                    text-align: center;
+                }
+            }
+            p {
+                font-size: 1.3rem;
+                padding: 3% 1rem 0 0;
+                color: lighten($dark-red, 25%);
+                text-transform: capitalize;
+                letter-spacing: 0.03rem;
+            }
+        }
+        .f-link {
+            box-sizing: border-box;
+            padding: 0 0 0 2rem;
+            @media screen and (max-width: 992px) {
+                padding: 1% 0 3% 2rem;
+                clear: both;
+            }
+            @media screen and (max-width: 500px) {
+                text-align: center;
+                padding: 5% 0;
+            }
+            h3 {
+                font-size: 1.5rem;
+                color: lighten($middle-line-red, 10%);
+                padding: 0 0 0.4rem 0;
+                @media screen and (max-width: 992px) {
+                    color: darken($text-gray, 15%);
+                }
+            }
+            p {
+                font-size: 1.2rem;
+                letter-spacing: 0.03rem;
+                color: lighten($middle-line-red, 20%);
+            }
+            ul {
+                display: block;
+                width: 31rem;
+                margin: 3.6rem 0 0 0;
+                max-width: 100%;
+                box-sizing: border-box;
+                @media screen and (max-width: 1132px) {
+                    margin: 1rem 0 0 0;
+                }
+                li {
+                    a {
+                        display: block;
+                        float: left;
+                        text-decoration: none;
+                        border-left: 0.45rem solid #000;
+                        p {
+                            color: #5F5F5F;
+                            float: left;
+                            padding: 0.2rem 3rem 0 0.5rem;
+                            font-size: 1.3rem;
+                            letter-spacing: 0.02rem;
+                            @media screen and (max-width: 624px) {
+                                padding: 0.2rem 2rem 0 0.5rem;
+                            }
+                            @media screen and (max-width: 450px) {
+                                padding: 0.2rem 1rem 0 0.5rem;
+                            }
+                        }
+                    }
+                    a:hover {
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+        .social {
+            float: left;
+            width: 35%;
+            padding: 0 0 0 1rem;
+            box-sizing: border-box;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                box-sizing: border-box;
+            }
+            @media screen and (max-width: 500px) {
+                float: none;
+                text-align: center;
+                padding: 0;
+            }
+            ul {
+                display: block;
+                width: 100%;
+                height: 4.5rem;
+                box-sizing: border-box;
+                clear: both;
+                margin: 0 auto;
+                 
+                                     @media screen and (max-width: 992px){
+                        padding: 0 0 0 0.6rem;
+                    }
+                 @media screen and (max-width: 500px){
+                    width: 70%;
+                    padding: 0 0 5% 0;
+                 }
+                li {
+                    height: 100%;
+                    display: block;
+                    float: left;
+                    @media screen and (max-width: 992px){
+                        margin: 0 5% 0 0 ;
+                    }
+                    @media screen and (max-width: 500px) {
+                        width: $content/3;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0 3%;
+                    box-sizing:border-box;
+
+                    }
+                    
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        padding: 0;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        border: 0.1rem solid #A00152;
+                        float: left;
+                        @media screen and (min-width: 992px) {
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            line-height: 2.5rem;
+                            text-align: center;
+                            margin: 18px 10px;
+                        }
+                        @media screen and (max-width: 500px){
+                            float: none;
+                            margin: 0 auto ;
+                        }
+                        img {
+                            width: 50%;
+                            height: 50%;
+                            margin: 24% 0 0 0;
+                            @media screen and (max-width: 992px) {
+                                margin: 24% 0 0 25%;
+                            }
+                             @media screen and (max-width: 500px) {
+                                margin: 24% 0 0 0;
+                            }                           
+                        }
+                    }
+                    a:hover {
+                        border: 1px solid #fff;
+                        background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 1%, rgba(255, 157, 243, 0.75) 70%);
+                    }
+                }
+            }
+        }
+    }
+    .f-menu {
+        width: 100%;
+        clear: both;
+        border-bottom: 0.1rem solid $middle-line-red;
+        float: left;
+        text-transform: uppercase;
+        @media screen and (max-width: 500px) {
+            border-bottom: none;
+        }
+        .page {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            //  border-top: 1px solid $middle-line-red;
+            float: left;
+            @media screen and (min-width: 768px) {
+                width: 65%;
+                border-bottom: none;
+            }
+            ul {
+                display: block;
+                width: 100%;
+                height: 4.5rem;
+                box-sizing: border-box;
+                clear: both;
+                padding: 0 0 0 1.05rem;
+                @media screen and (max-width: 500px) {
+                    display: none;
+                }
+                li {
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        padding: 2rem 0 0 0;
+                        float: left;
+                        @media screen and (max-width: 500px) {
+                            padding: 7% 10% 7% 2rem;
+                        }
+                        p {
+                            color: lighten($middle-line-red, 15%);
+                            float: left;
+                            font-size: 1rem;
+                            letter-spacing: 0.23rem;
+                            font-family: 'Lato', sans-serif;
+                            border-right: 1px solid $middle-line-red;
+                            padding: 0 1.5rem;
+                        }
+                    }
+                    a:hover {
+                        p {
+                            opacity: 0.4;
+                            transition-duration: .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        clear: both;
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 0.02rem;
+        color: lighten($middle-line-red, 20%);
+        background-color: $dark-red;
+        width: 100%;
+        padding: 1.5rem;
+        box-sizing: border-box;
+    }
+}

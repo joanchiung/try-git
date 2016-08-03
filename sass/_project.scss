@@ -1,0 +1,380 @@
+//project 專案作品
+main {
+    section {
+        .bg {
+            width: 100%;
+            position: relative;
+            box-sizing: border-box;
+            padding: 0 10%;
+            background: url(../img/project/project.jpg) no-repeat fixed;
+            background-position: center center;
+            background-size: cover;
+            .background-project {
+                background: url(../img/project/project.jpg) no-repeat;
+            }
+            .command {
+                max-width: 1440px;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 6rem 5%;
+                margin: 0 auto;
+                h3{
+                        font-size: 40px;
+                         font-family: 'Amiri', serif;
+                         padding: 0 0 1.7rem 0;
+                         text-transform: capitalize;
+                         letter-spacing: 0.2rem;
+                         text-align: center;
+                    }
+                .recent {
+                    border-top: 4px double #000;
+                    padding: 1.5rem 0 0rem 0;
+                    width: 100%;
+                    box-sizing: border-box;
+
+                    .piece {
+                        width: $content/3;
+                        box-sizing: border-box;
+                        float: left;
+                        @media screen and (max-width: 1280px) {
+                            width: $content/2;
+                        }
+                        @media screen and (max-width:768px) {
+                            width: $content;
+                        }
+                        a {
+                            text-decoration: none;
+                            display: block;
+                            .picw {
+                                margin: 0 5% 0 5%;
+                                box-sizing: border-box;
+                                @media screen and (max-width: 1280px) {
+                                     padding-top:1rem; 
+                                }
+                               
+                                p {
+                                    padding-bottom: 1%;
+                                    font-family: 'Lato', sans-serif;
+                                    font-size: 10px;
+                                    color: #000;
+                                    text-transform: uppercase;
+                                    letter-spacing: 0.2rem;
+                                }
+                                h3 {
+                                    padding-bottom: 1%;
+                                    border-bottom: 1px solid;
+                                    font-family: 'Amiri', serif;
+                                    font-size: 20px;
+                                    color: #000;
+                                    letter-spacing: 0.2rem;
+                                    text-transform: capitalize;
+                                    text-align: left;
+                                }
+                                img {
+                                    margin-top: 1rem;
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    border-bottom: 3px double #000;
+                                    padding: 0 0 5% 0;
+                                }
+                            }
+                        }
+                        a:hover {
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+        }
+        .project {
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10%;
+            @media screen and (max-width: 1024px) {
+                padding: 10% 4%;
+            }
+        }
+        .contain {
+            .projectwork {
+                width: 100%;
+                padding: 0;
+                max-width: 1440px;
+                margin: 0 auto;
+                @media screen and (max-width: 1024px) {
+                    padding: 5% 0 0 0;
+                }
+                .inner {
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin: 0 auto;
+                    @media screen and (max-width: 1024px) {
+                        width: 100%;
+                        box-sizing: border-box;
+                        margin: 0 auto;
+                    }
+                    .title {
+                        width: 65%;
+                        margin: 0 auto;
+                        padding: 10% 0;
+                        text-align: center;
+                        @media screen and (min-width: 1280px) and (max-width: 1440px) {
+                            width: 70%;
+                        }
+                        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+                            width: 100%;
+                            h1 {
+                                font-size: 6rem;
+                            }
+                        }
+                        @media screen and (min-width: 768px) and (max-width: 1023px) {
+                            width: 100%;
+                            h1 {
+                                font-size: 5rem;
+                            }
+                        }
+                        h1 {
+                            padding: 1%;
+                        }
+                        h3{
+                                            
+                        font-size: 40px;
+                         font-family: 'Amiri', serif;
+                         padding: 0 0 1.7rem 0;
+                         text-transform: capitalize;
+                         letter-spacing: 0.2rem;
+                         text-align: center;
+                         border-bottom: 4px double ;
+                    
+                        }
+                    }
+                    .logotype {
+                        padding: 0;
+                    }
+                    .logo {
+                        padding: 0 0 5% 0;
+                        @media screen and (max-width: 768px) {
+                            h1 {
+                                font-size: 4.5rem;
+                                padding-bottom: 5%;
+                            }
+                        }
+                        @media screen and (max-width:624px) {
+                            h1 {
+                                font-size: 3.5rem;
+                                padding-bottom: 10%;
+                            }
+                        }
+                    }
+                    .project {
+                        @media screen and (max-width: 1024px) {
+                            display: block;
+                        }
+                        .column {
+                            @media screen and (max-width: 1024px) {
+                                width: $content/2;
+                            }
+                        }
+                        .item {
+                            width: $content/3;
+                            float: left;
+                            box-sizing: border-box;
+                            padding: 0.3% 0.15% 0 0.15%;
+                            @media screen and (max-width: 1024px) {
+                                width: $content/2;
+                            }
+                            @media screen and (max-width:768px) {
+                                width: $content;
+                            }
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .project2 {
+                        display: block;
+                        background-color: #fff;
+                        padding: 3%;
+                        margin: 5% 0 0 0;
+                        @media screen and (max-width: 1024px) {
+                            transition-duration: .6s;
+                            transition-delay: .3s;
+                            width: 100%;
+                            box-sizing: border-box;
+                            display: block;
+                        }
+                        .title {
+                            width: 100%;
+                            box-sizing: border-box;
+                            padding: 0 0 2% 0;
+                            h3 {
+                                font-size: 20px;
+                                padding: 3% 0 3% 1%;
+                                margin: 0 auto;
+                                width: 21%;
+                                background: #fff;
+                                font-family: 'Amiri', serif;
+                                color: darken($bg-gray, 70%);
+                                text-transform: uppercase;
+                                letter-spacing: 1rem;
+                                border-bottom: none;
+                                @media screen and (max-width: 1660px) {
+                                    font-size: 18px;
+                                    width: 24%;
+                                    letter-spacing: 0.7rem;
+                                }
+                                @media screen and (max-width: 1280px) {
+                                    width: 30%;
+                                }
+                                @media screen and (max-width: 1024px) {
+                                    width: 40%;
+                                    padding: 3% 0 6% 1%;
+                                }
+                                @media screen and (max-width: 624px) {
+                                    width: 50%;
+                                    padding: 3% 0 8% 1%;
+                                }
+                                @media screen and (max-width: 430px) {
+                                    width: 75%;
+                                    padding: 3% 0 10% 1%;
+                                }
+                            }
+                            .line {
+                                display: block;
+                                width: 100%;
+                                height: 1px;
+                                background-color: darken($bg-gray, 20%);
+                                margin: 4rem 0 -3.3rem 0;
+                                box-sizing: border-box;
+                                @media screen and (max-width: 1660px) {
+                                    margin: 4rem 0 -3rem 0;
+                                }
+                                @media screen and (max-width: 1280px) {
+                                    margin: 4rem 0 -2.5rem 0;
+                                }
+                                @media screen and (max-width: 1024px) {
+                                    margin: 4rem 0 -2rem 0;
+                                }
+                                @media screen and (max-width: 624px) {
+                                    margin: 4rem 0 -1.5rem 0;
+                                }
+                            }
+                        }
+                        .column {
+                            padding: 0;
+                            box-sizing: border-box;
+                            float: left;
+                            display: block;
+                            margin: 0;
+                            width: 100%;
+                            border-bottom: 1px solid darken($bg-gray, 20%);
+                            @media screen and (max-width: 1910px) {
+                                padding: 0 0 0 1%;
+                            }
+                            @media screen and (max-width: 1280px) {
+                                padding: 0 0 0 2%;
+                            }
+                            section {
+                                position: relative;
+                                float: left;
+                                max-width: 423px;
+                                width: auto;
+                                background-color: #fff;
+                                opacity: 1;
+                                margin: 0 1%;
+                                box-sizing: border-box;
+                                padding-bottom: 2.5%;
+                                @media screen and (max-width: 1910px) {
+                                    width: 31%;
+                                }
+                                @media screen and (max-width: 1280px) {
+                                    max-width: 45%;
+                                    width: 45%;
+                                    box-sizing: border-box;
+                                    margin: 0 2%;
+                                }
+                                @media screen and (max-width: 600px) {
+                                    max-width: 80%;
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    margin: 0 10% 7% 10%;
+                                }
+                                a {
+                                    opacity: 1;
+                                }
+                                a:hover {
+                                    opacity: 0.7;
+                                }
+                            }
+                            .img {
+                                position: relative;
+                                overflow: hidden;
+                                text-align: center;
+                                height: 250px;
+                                @media screen and (max-width: 768px) {
+                                    transition-duration: .6s;
+                                    transition-delay: .3s;
+                                    height: 200px;
+                                }
+                                @media screen and (max-width: 600px) {
+                                    height: 230px;
+                                }
+                                @media screen and (max-width: 430px) {
+                                    height: 180px;
+                                }
+                            }
+                            img {
+                                display: block;
+                                width: 100%;
+                                max-width: 100%;
+                                height: auto;
+                                vertical-align: top;
+                            }
+                            .item {
+                                display: inline-block;
+                                position: relative;
+                                text-align: left;
+                                width: 100%;
+                                background-color: rgba(255, 255, 255, 0);
+                                a {
+                                    text-decoration: none;
+                                    color: #000;
+                                    display: block;
+                                    width: 100%;
+                                }
+                                .text {
+                                    padding: 7% 0 10% 0;
+                                    h2 {
+                                        font-size: 18px;
+                                        background: #000;
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;
+                                        padding: 3% 0 3% 0;
+                                        letter-spacing: 0.3rem;
+                                        font-family: 'heisei-mincho-std', serif;
+                                    }
+                                    h3 {
+                                        text-transform: uppercase;
+                                        font-family: 'Lato', sans-serif;
+                                        letter-spacing: 0.5rem;
+                                        text-align: left;
+                                        font-size: 12px;
+                                        padding: 0 0 0 0.2rem;
+                                    }
+                                    p {
+                                        font-size: 14.5px;
+                                        line-height: 1.75;
+                                        letter-spacing: 0.02rem;
+                                        font-family: sans-serif;
+                                        padding: 0 3% 0 0.1rem;
+                                        color: darken($text-gray, 15%);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

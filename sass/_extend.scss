@@ -1,0 +1,113 @@
+h1 {
+    font-size: 6.5rem;
+    font-family: "b016033t";
+    background: -webkit-linear-gradient(45deg, #FB3636 1%, #DC49F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media screen and (max-width: 1024px) {
+        font-size: 6rem;
+    }
+    @media screen and (max-width: 992px) {
+        font-size: 5.5rem;
+    }
+        @media screen and (max-width:768px) {
+        font-size: 5rem;
+    }
+            @media screen and (max-width:624px) {
+        font-size: 5rem;
+    }
+}
+
+.work .title h1 {
+    @extend h1;
+    text-align: center;
+    line-height: 2em;
+    background: -webkit-linear-gradient(45deg, #FB3636 1%, #DC49F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        @media screen and (max-width: 1024px) {
+        font-size: 6rem;
+    }
+    @media screen and (max-width: 992px) {
+        font-size: 5.5rem;
+    }
+        @media screen and (max-width:768px) {
+        font-size: 5rem;
+    }
+            @media screen and (max-width:624px) {
+        font-size: 5rem;
+    }
+}
+
+h2 {
+    @extend h1;
+    font-size: 2.3rem;
+}
+
+.about .portfolio .inner-white .name h2 {
+    @extend h1;
+    font-size: 2.5rem;
+    font-family: "heisei-mincho-std", sans-serif;
+}
+
+// 圓環2
+%ring {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #FB3636 1%, #DC49F5 100%);
+    position: relative;
+    float: left;
+}
+
+%mask {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #000000 1%, #9402AD 100%);
+    text-align: center;
+    line-height: 170px;
+    font-size: 16px;
+    position: relative;
+}
+
+.ring-visual {
+    @extend %ring;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+.mask-visual {
+    @extend %mask;
+    width: 152px;
+    height: 152px;
+    top: 15.5%;
+    left: 15.5%;
+}
+
+.ring-front {
+    @extend %ring;
+    float: right;
+}
+
+.mask-front {
+    @extend %mask;
+    top: 8.5%;
+    left: 8.5%;
+}
+
+.ring-lan {
+    @extend %ring;
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+
+.mask-lan {
+    @extend %mask;
+    width: 130px;
+    height: 130px;
+    top: 8.5%;
+    left: 8.5%;
+}
